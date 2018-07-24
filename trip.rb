@@ -11,7 +11,7 @@ stay = gets.chomp.capitalize  #don't forget to Capitilize the input
 
 puts "What would you like to eat?"
 
-food = gets.chomp
+eat = gets.chomp
 
 puts "How long are you staying?"
 
@@ -19,4 +19,4 @@ duration = gets.chomp
 
 # Lastly, puts it all back by interpolating these values in a string.
 
-puts "You will be going to #{stay} eating #{food} and staying for #{duration} days."
+puts "You will be going to #{stay} eating #{eat} and staying for #{duration} days."
